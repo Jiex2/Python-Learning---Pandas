@@ -6,7 +6,7 @@
 ```Python
 [expression if condition else for var in list]
 ```
-For Example:
+EX:
 ``` Python 
 [x*2 if x>2 else x for x in [1,2,3,4,5] ]
 ```
@@ -17,5 +17,19 @@ For Example:
 个人猜测是由于语句顺序的问题，当condition满足以后会直接运算expression，所以else部分会报错。
 
 
-###2. 匿名函数和Map函数
+### 2. 匿名函数和Map函数
 匿名函数：
+``` Python
+Lambda var: expression
+```
+EX:
+``` Python
+Lambda x: x*2
+```
+Map函数起到映射作用
+``` Python
+map(lambda var: expression, list)
+```
+注意Map函数得到的结果是一个对象，且var可以是var1，var2...
+
+### 3. Zip函数和
