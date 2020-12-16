@@ -1,4 +1,4 @@
-## Chpter 1 Python的基础知识
+## Chapter 1    Python的基础知识
 在深入学习Pandas前需要了解的Python基本语句，教程参考DataWhale：https://datawhalechina.github.io/joyful-pandas/build/html/%E7%9B%AE%E5%BD%95/ch1.html
 
 ### 1. 列表推导式与条件赋值
